@@ -4,11 +4,11 @@
   
   
   <entry>
-    <title>Hello World</title>
+    <title>我的个人简历</title>
     <link href="/2024/06/04/1/"/>
     <url>/2024/06/04/1/</url>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><p>2123453546546546</p>]]></content>
+    <content type="html"><![CDATA[<h1>欢迎来到我的个人简历</h1>这是我制作的个人简历<div class="box">  <div class="left-box">    <div class="me-img"><p>&nbsp;</p><p><img src="v2-a5ce347e0efb63a27b67c6ab46e59e12_r.jpg" width="150" height="150"></p><h1>yx</h1><h3>工作意向：web前端工程<br>平面设计<br>运营助理</h3></div><div class="wenzhi"><h4>名族:汉</h4><h4>现居:温州</h4><h4>籍贯:丽水</h4><h4>电话:18967652110</h4><h4>邮箱:2953056927@qq.com</h4><h4>政治面貌：群众2</h4><span class="slider-wrapper"></div>  </div>  <div class="right-box"><div class="top-box" ><a href="#">首页</a><a href="#">技能特长</a><a href="#">个人奖励</a><a href="#">教育经历</a><a href="#">技能特长</a><a href="#">友情链接</a></div>  <div class="slider">    <div class="slider-wrapper">    <img src="1.png" alt="" />    </div>  </div></div>  </body>]]></content>
     
     
     
