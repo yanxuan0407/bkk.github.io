@@ -4,6 +4,33 @@
   
   
   <entry>
+    <title>Hexo-admin</title>
+    <link href="/2024/06/14/Hexo-admin/"/>
+    <url>/2024/06/14/Hexo-admin/</url>
+    
+    <content type="html"><![CDATA[<div class="note note-success">            <p>本文未经允许禁止转载,可提供参考，如需源码请移至关于页。</p>          </div><div class="note note-warning">            <p>本文作者：yanxuan<br>原文地址：<a href="https://yxbkk.top/">https://yxbkk.top</a></p>          </div><p>hexo-admin: <a href="https://github.com/jaredly/hexo-admin">https://github.com/jaredly/hexo-admin</a><br>hexo-admin 是一个为 Hexo 博客框架设计的管理插件。Hexo 是一个快速、简单且强大的博客框架，它使用 Node.js 编写。Hexo 允许用户通过 Markdown 文件来创建静态博客网站。</p><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">npm install hexo-admin --save<br></code></pre></td></tr></table></figure><p>如果npm下载不成功可以下zip文件，然后将它解压至博客根目录下的<code>node_modules</code>文件夹下<br><img src="/img/admin/下载.png"></p><h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><h3 id="普通使用"><a href="#普通使用" class="headerlink" title="普通使用"></a>普通使用</h3><p>安装完成后输入<code>hexo s</code>来运行，之后进入浏览器输入<code>http://localhost:4000/admin/</code>即可访问</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs yaml"><span class="hljs-string">http://localhost:4000/admin/</span><br></code></pre></td></tr></table></figure><img src="/img/admin/wumima.png"><h3 id="安全使用"><a href="#安全使用" class="headerlink" title="安全使用"></a>安全使用</h3><p>1.首先需要进入<code>settings</code>选项，点击该页面下的<code>setup authentification here</code><br><img src="/img/admin/shezhi.png"><br>2.之后就可以在该页面下添加你的<code>用户名</code>与<code>密码</code><br><img src="/img/admin/shezhimima.png"><br>3.设置完成后往下滑找到<code>Admin Config Section</code>将代码添加至博客根目录下的<code>_config.yml</code>目录下</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs yaml"><span class="hljs-attr">admin:</span><br>  <span class="hljs-attr">username:</span> <span class="hljs-string">你的用户名</span><br>  <span class="hljs-attr">password_hash:</span> <span class="hljs-string">你的密码</span><br>  <span class="hljs-attr">secret:</span> <span class="hljs-string">加密的随机字符串，用于保护会话数据。</span><br></code></pre></td></tr></table></figure><img src="/img/admin/daima.png"><img src="/img/admin/daima2.png"><h2 id="验证"><a href="#验证" class="headerlink" title="验证"></a>验证</h2><p>设置完毕后重新启动Hexo再进入<code>http://localhost:4000/admin/</code>访问即可发现再次访问需要输入你刚刚设置的账号与密码<br><img src="/img/admin/yanzheng.png"><br>输入你所设置的账号密码即可编辑你的博客了</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Hexo-admin</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>博客插件</tag>
+      
+      <tag>Hexo 可视化界面</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Hexo压缩与优化插件 Hexo-all-minifier</title>
     <link href="/2024/06/13/minifier/"/>
     <url>/2024/06/13/minifier/</url>
